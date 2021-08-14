@@ -1,9 +1,9 @@
 ## Informações
-* **Disciplina:** CIÊNCIA DE DADOS
+* **Disciplina:** CIÊNCIA DE DADOS e PROJETO EM GOVERNANÇA DE TI
 * **Dia:** QUINTA-FEIRA
 * **Período:** NOTURNO
 
-## Prof. Dr. Edson Melo de Souza
+### Prof. Dr. Edson Melo de Souza
 * e-mail: [souzaem@uni9.pro.br](mailto:souzaem@uni9.pro.br)
 * Currículo Acadêmico: [http://lattes.cnpq.br/2641658716558510](http://lattes.cnpq.br/2641658716558510)
 * LinkedIn: [souzaem](https://www.linkedin.com/in/souzaem/)
@@ -65,3 +65,89 @@ Para acessá-los, basta utilizar o RA e Senha da Central do Aluno
 * [Linguagem Python](https://www.youtube.com/watch?v=S9uPNppGsGo) - Curso de Python
 * [Linguagem R](https://www.youtube.com/watch?v=tfPsmDzS74c&list=PLyqOvdQmGdTQ5dE6hSD7ZGBu8bud70wYf) - Curso de R
 * [Linguagem Julia](https://www.youtube.com/watch?v=ZPtyQem6hso&list=PLya-DXLnU1p7_iMNN4386qkiD4ywL9hxm) - Curso de Julia
+
+---
+
+<br>
+
+# PROJETO EM GOVERNANÇA DE TI
+## Objetivos e Desafios
+* Aplicar os conceitos aprendidos durante as aulas de Ciência de Dados, além de pesquisas em artigos e documentações técnicas sobre Python.
+* Colocar o discente (aluno ou aluna) em contato com tecnologias atuais e amplamente utilizadas no mercado de trabalho.
+* Despertar o interesse para a pesquisa de soluções e resoluções de problemas emergentes (atuais).
+* Desafiar os discentes a utilizarem recursos além dos aprendidos em sala de aula.
+
+## Descrição
+Nesse semestre teremos um novo **desafio** no desenvolvimento do projeto, onde vocês irão realizar uma **Análise de Dados** sobre **Acidentes Aéreos Ocorridos no Brasil de 2010 a 2019** aplicando técnicas de ciência de dados.
+
+## Orientações
+O trabalho deverá ser desenvolvido e entregue no formato **Jypter Notebook** (Google Colab).
+
+Os grupos podem ser formados por **até 12 discentes**, apesar de trabalhos individuais também serem permitidos.
+
+Os dados para o desenvolvimento estão disponíveis no topo da página na pasta **CENIPA** (ocorrencias_cenipa.csv). Exemplos podem ser consultados no endereço [Kaggle](https://www.kaggle.com/), uma plataforma que contém centenas de *data sets* para competição de ciência de dados.
+
+Deverá constar no trabalho a descrição completa das etapas percorridas, gráficos com as devidas explicações sobre os resultados obtidos, assim como todo o código utilizado (quando necessário, indicar a fonte através de uma citação).
+
+Deverão constar no trabalho final:
+* Explicação, com citação, de cada técnica/biblioteca utilizada. Ex.: Pandas é uma biblioteca para manipulação de dados... (SOUZA, 2021).
+* Demonstração gráfica de **todas as variáveis**, incluindo as estatísticas para média, moda, media e desvio padrão, devidamente explicados.
+* Análise de correlações entre variáveis que mostrem seus significados e quais informações podem ser obtidas para tomada de decisão.
+* Apresentar ao menos um estudo com aplicação de **Regressão Linear** para analisar a relação entre o **número de assentos** e outras variáveis a serem escolhidas.
+* Relatório final sobre o estudo, indicando os principais pontos estudados, assim como suas conclusões.
+* Referncias bibliográficas no formato ABNT.
+ 
+## Evolução do trabalho
+Durante as aulas serão discutidas a montagem dos grupos, orientações sobre a condução do trabalho e verificação do cumprimento das etapas discutidas anteriormente nas aulas.
+
+## Entrega do Projeto (**03/12/2021**)
+Para **formalizar** a entrega do projeto, apenas um integrante do grupo (Líder) deve enviar por e-mail os dados abaixo no corpo da mensagem. **Atenção:** Sem o envio do e-mail com as informações abaixo o trabalho não será corrigido e será atribuída nota zero (0).
+* Dados a serem enviados:
+ 	* **Assunto**: Entrega de Projeto -  Turma XX (XX é o número da turma)
+ 	* **Corpo da mensagem**:
+    	* **Nome completo e RA de *cada um* dos integrantes do grupo** (EM ORDEM ALFABÉTICA).
+		* **Endereço do repositório no GitHub** com o conteúdo do projeto.
+
+## Correção do Projeto
+As correções serão realizadas acessando diretamente o projeto do GitHub via [Binder](https://mybinder.org).
+
+---
+<br>
+
+# Estudo de Caso<br>Acidentes Aéreos Ocorridos no Brasil de 2010 a 2019
+## Opendata AIG Brazil
+A base de dados de ocorrências aeronáuticas é gerenciada pelo Centro de Investigação e Prevenção de Acidentes Aeronáuticos (CENIPA). 
+Constam nesta base de dados as ocorrências aeronáuticas notificadas ao CENIPA nos últimos 10 anos e que ocorreram em solo brasileiro.
+
+Dentre as informações disponíveis estão os dados sobre as aeronaves envolvidas, fatalidades, local, data, horário dos eventos e 
+informações taxonômicas típicas das investigações de acidentes (AIG).
+
+São resguardadas a privacidade de pessoas físicas/jurídicas envolvidas conforme previsto pela Lei de Acesso à Informação (Lei n° 12.527, de 18 de novembro de 2011).
+
+Essa base de dados é composta por informações preliminares provenientes do formulário CENIPA-05 (Ficha de Notificação de Ocorrências Aeronáuticas) e consolidada a partir dos relatórios de investigações publicados.
+
+Outra forma de visualização desses dados é pelo Painel SIPAER disponível na página do [CENIPA](http://www.dados.gov.br/dataset/ocorrencias-aeronauticas-da-aviacao-civil-brasileira).
+
+## Dataset
+O dataset (**disponível acima**) é composto por 21 ***variables*** com ***5242 observations***, descritas a seguir:
++ codigo
++ tipo
++ descricao
++ cidade
++ estadot
++ datat
++ ano
++ horat
++ aeronave_liberada
++ status_investigacao
++ aeronaves_envolvidas
++ ocorrencia_saida_pista
++ aeronave_tipo
++ aeronave_fabricante
++ motor_tipo
++ aeronave_motor_quantidade
++ aeronave_assentos
++ aeronave_ano_fabricacao
++ aeronave_pais_fabricante
++ aeronave_fase_operacao
++ aeronave_nivel_dano
