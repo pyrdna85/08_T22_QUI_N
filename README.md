@@ -102,7 +102,7 @@ Durante as aulas serão discutidas a montagem dos grupos, orientações sobre a 
 
 ## Entrega do Projeto (**03/12/2021**)
 Para **formalizar** a entrega do projeto, apenas um integrante do grupo (Líder) deve enviar por e-mail os dados abaixo no corpo da mensagem. **Atenção:** Sem o envio do e-mail com as informações abaixo o trabalho não será corrigido e será atribuída nota zero (0).
-* Dados a serem enviados:
+* Dados a serem enviados para o e-mail [souzaem@uni9.pro.br](souzaem@uni9.pro.br):
  	* **Assunto**: Entrega de Projeto -  Turma XX (XX é o número da turma)
  	* **Corpo da mensagem**:
     	* **Nome completo e RA de *cada um* dos integrantes do grupo** (EM ORDEM ALFABÉTICA).
